@@ -1,0 +1,13 @@
+!#/usr/bin/env ruby
+
+class Numbers
+  attr_accessor :num
+  def initialize(num)
+    @num = num
+  end
+end
+
+if __FILE__ == $0
+  n = Numbers.new("1")
+  puts "#{@n.num}"
+end

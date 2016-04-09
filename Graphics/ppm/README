@@ -1,0 +1,15 @@
+##
+#Aleksandar Straumann
+#Homework 1
+##
+This project uses CMAKE as for it's compilation.
+
+I did this all from the terminal so an IDE will not be necessary.
+
+
+The command to run and compile the main.cpp program is:
+	g++  -Wall -o hwk1 main.cpp FrameBuffer.cpp Vector2D.cpp Vector3D.cpp -lm
+Then to run the program just call 
+	./hwk1
+
+

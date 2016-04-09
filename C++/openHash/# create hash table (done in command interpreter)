@@ -1,0 +1,24 @@
+# create hash table (done in command interpreter)
+c
+
+# insert 9 items 
+i 5
+i 28
+i 19
+i 15
+i 20
+i 33
+i 12
+i 17
+i 10
+
+# Show the hash table structure
+S
+
+# search for element in table
+s 19
+
+# search for element not in table
+s 6
+
+# End of test

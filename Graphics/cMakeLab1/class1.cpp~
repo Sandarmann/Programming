@@ -1,0 +1,12 @@
+#include "class1.h"
+#include <iostream>
+
+using namespace std;
+
+public class1::class1(int val){
+	this->value = val;
+}
+
+public int get(){
+	return this->value;
+}

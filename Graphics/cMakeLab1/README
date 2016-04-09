@@ -1,0 +1,7 @@
+The main simply makes a new instantiation of the class1 and sets the value to
+10
+
+To run the program simply:
+	run cmake .. from build
+	then call make
+	then call ./test1

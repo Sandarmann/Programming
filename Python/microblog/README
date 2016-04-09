@@ -1,0 +1,18 @@
+So check it here is what we got going on:
+
+we have the directory:
+
+microblog/
+	app/
+		static/
+		template/
+		__init__.py
+		views.py
+	tmp/
+	run.py
+	README
+
+Then we got the setup we have the virtual environment (Which I learned is just a folder that is created when invoking python -m venv NAME that contains all the necessary information for a wholly seperate python env)
+
+Anyways I am doing the tutorial here:
+http://docs.python-guide.org/en/latest/dev/virtualenvs/

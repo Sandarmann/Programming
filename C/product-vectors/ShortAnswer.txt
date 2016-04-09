@@ -1,0 +1,28 @@
+1) Since compression deals with representing the data with as little entropy as possible the higher entropy a set of data has the higher the compression percentage will be. So when we compress the plaintext version of Gettysberg.txt there is little entropy in teh set of data so the compression rate is low. But when we enrypt a set of data there is a large amount of complexity and extra data added to the encrypted set; thus we see the larger compression rate.
+
+2)AES's algorithm is far more complex than the product cypher that we have generated. It applies the same logic over many rounds using much larger buffers and pseudo randomn keys in order to generate the encrypted data. Where as our product cypher only applies the same key and same transposition over a fewer number of rounds. This suggests that the entropy of AES is much larger than a product cypher.
+
+-r--r--r--@  1 Drax  staff  1257277 Feb 22  2015 11_moby_dick.txt
+-r--r--r--@  1 Drax  staff   505563 Feb 22  2015 12_abe.jpg
+-rw-r--r--    1 Drax  staff   505568 Oct 18 16:46 abe1
+-rw-r--r--    1 Drax  staff   502790 Oct 18 16:46 abe1.gz
+-rw-r--r--    1 Drax  staff   505568 Oct 18 16:49 abe2
+-rw-r--r--    1 Drax  staff   493602 Oct 18 16:49 abe2.gz
+-rw-r--r--    1 Drax  staff   505616 Oct 18 16:48 abe3
+-rw-r--r--    1 Drax  staff   493629 Oct 18 16:48 abe3.gz
+-rw-r--r--    1 Drax  staff   505568 Oct 18 16:48 abe4
+-rw-r--r--    1 Drax  staff   502795 Oct 18 16:48 abe4.gz
+-rw-r--r--    1 Drax  staff  1257280 Oct 18 16:48 dick1
+-rw-r--r--    1 Drax  staff   835831 Oct 18 16:48 dick1.gz
+-rw-r--r--    1 Drax  staff  1257280 Oct 18 16:48 dick2
+-rw-r--r--    1 Drax  staff   511531 Oct 18 16:48 dick2.gz
+-rw-r--r--    1 Drax  staff  1257280 Oct 18 16:48 dick3
+-rw-r--r--    1 Drax  staff   511546 Oct 18 16:48 dick3.gz
+-rw-r--r--    1 Drax  staff  1257280 Oct 18 16:49 dick4
+-rw-r--r--    1 Drax  staff   845732 Oct 18 16:49 dick4.gz
+
+3)Based off the data above I would say that the file size does not depend on the key used. This is because our encryption only adds a small amount of buffer characters on the very last set of characters. So our file size does not change much when encrypted.
+
+4)Yes the size of the encrypted and zipped version of the file changes. This is because there is a higher complexity of characters used making it harder to represent in a smaller size. You can see this best in the moby dick encryption because when using input 1 and 4 given in the question you get a higher compression rate because there is more characters used when encrypting but when using 16 0's in input 2 or 16 z's in input 3 you can see the compression rate is much less in comparison. This is because it is more of a constant shift applied across the whole text rather than a different shift applied to each letter. 
+
+5) Yes the size of the file given will effect the compression rate. As you can see from the data above the smaller file "Abe" had a higher compression rate and this is because the file sized happened to coincide with the compressed version of it, while the Mody dick version was much larger and had a more apparent difference in file size between compressed and not compressed. The file size would make the most sense because the larger size of the file the more data there is to compress resulting in a larger compressed size. 

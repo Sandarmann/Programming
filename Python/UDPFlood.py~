@@ -1,0 +1,14 @@
+import socket
+
+UDP_IP = "131.212.207.254"
+UDP_PORT = 5005
+MESSAGE = "Our remedies oft in ourselves do lie,Which we ascribe to heaven: the fated skyGives us free scope, only doth backward pullOur slow designs when we ourselves are dull.What power is it which mounts my love so high,That makes me see, and cannot feed mine eye?The mightiest space in fortune nature bringsTo join like likes and kiss like native things.Impossible be strange attempts to thoseThat weigh their pains in sense and do supposeWhat hath been cannot be: who ever stroveSo show her merit, that did miss her love?The king's disease--my project may deceive me,But my intents are fix'd and will not leave me.Shakespeare's first plays were written in the conventional style of the day. He wrote them in a stylised language that does not always spring naturally from the needs of the characters or the drama.[143] The poetry depends on extended, sometimes elaborate metaphors and conceits, and the language is often rhetorical—written for actors to declaim rather than speak. The grand speeches in Titus Andronicus, in the view of some critics, often hold up the action, for example; and the verse in The Two Gentlemen of Verona has been described as stilted.[144]Soon, however, Shakespeare began to adapt the traditional styles to his own purposes. The opening soliloquy of Richard III has its roots in the self-declaration of Vice in medieval drama. At the same time, Richard's vivid self-awareness looks forward to the soliloquies of Shakespeare's mature plays.[145] No single play marks a change from the traditional to the freer style. Shakespeare combined the two throughout his career, with Romeo and Juliet perhaps the best example of the mixing of the styles.[146] By the time of Romeo and Juliet, Richard II, and A Midsummer Night's Dream in the mid-1590s, Shakespeare had begun to write a more natural poetry. He increasingly tuned his metaphors and images to the needs of the drama itself."
+
+print ("UDP target IP:", UDP_IP)
+print ("UDP target port:", UDP_PORT)
+print ("message:", MESSAGE)
+
+sock = socket.socket(socket.AF_INET, # Internet
+                                  socket.SOCK_DGRAM) # UDP
+for x in range(0, 10000000):
+    sock.sendto(bytes(MESSAGE, "utf-8"), (UDP_IP, UDP_PORT))

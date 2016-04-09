@@ -1,0 +1,12 @@
+##
+#Aleksandar Straumann
+#Homework 1
+##
+This project uses CMAKE as for it's compilation.
+
+I did this all from the terminal so an IDE will not be necessary.
+
+
+
+Also since this program will be writing to files, all files being written will
+show up under the build directory by default. 

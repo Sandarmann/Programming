@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+def function():
+    print("HELLO WORLD")
+def functionWithParameters(string):
+    print(string)
+
+print("This line will be printed")
+function()
+functionWithParameters("YO")
+a = "ASDalsdjA"
+functionWithParameters(a)

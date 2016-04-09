@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Drax/Programming/Graphics/cMakeLab1/class1.cpp
+class1.h
+/Users/Drax/Programming/Graphics/cMakeLab1/class1.h
+iostream
+-
+
+/Users/Drax/Programming/Graphics/cMakeLab1/class1.h
+
+/Users/Drax/Programming/Graphics/cMakeLab1/test1_main.cpp
+iostream
+-
+class1.h
+/Users/Drax/Programming/Graphics/cMakeLab1/class1.h
+

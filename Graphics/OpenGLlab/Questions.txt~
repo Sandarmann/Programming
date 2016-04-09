@@ -1,0 +1,41 @@
+Aleksandar Straumann
+Graphics - Dunham
+2/2/16
+
+1) I am inclined to believe this is called the: Graphics Processing Unit aka GPU
+
+2)Host refers to the CPU and the threads, memory avaliable to it.
+
+3)Device refers to the GPU and the thread, memory available to it.
+
+4)The context is the: OS, hardware driver, hardware, and the windowing system
+
+5)It is refered to as Heterogeneous Multiprocessing because it requires both
+the CPU and the GPU in order to do it's computations. 
+
+6) Noone
+
+7) The framebuffer, in chapter 16, is directly related to the size of the
+window that contains the graphics context. As well as containing both the
+color and depth buffer. Where the color buffer contains the RGB A values of
+the graphics and the depth buffer contains the information regarding the z
+position of objects relative to one another.
+
+8) To clear out the OpenGL display buffer you call
+	glClearColor( 0.0f, 0.0f, 0.0f, 0.0f)
+	glClear( GL_COLOR_BUFFER_BIT)
+
+	If you wanted to clear the display buffer to all red you would do
+	glClearColor( 1.0f, 0.0f, 0.0f, 0.0f)
+	glClear( GL_COLOR_BUFFER_BIT)
+
+9) For me the screen only changed color once, and the function glClearColor
+was only called once in the glfwExample.cpp
+
+
+10) In order to get the colors to change I had to open the file under
+OpenGL/glfwExample.cpp. 
+	In the while loop I changed some of the functionality so that it would
+loop through the RGB values for each color increment of .001.
+	In order to make it interactive I had to add a call to 
+		glfw_GETKEY_:

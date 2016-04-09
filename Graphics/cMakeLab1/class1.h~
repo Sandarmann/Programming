@@ -1,0 +1,12 @@
+#ifndef CLASS1_H
+#define CLASS1_H
+
+class class1{
+	public:
+		class1(int val);
+	private:
+		int value;
+
+};
+
+#endif

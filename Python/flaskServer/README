@@ -1,0 +1,19 @@
+yo Al it's ya boiiiii
+
+Anyways this project was to illustrate the use of Flask as a Web Server client
+
+you have the main app.py which you must make executable in order to run the server.
+
+Anyways Flask allows us to sumplify the process of intercepting requests and stuff. Also this shows you the idea of implementing a JSON like database. Which is just for an example so don't use this format outside the program.
+
+But it also gives you an idea fo the type of responses you will need to make as well as modules that you will be using.
+
+
+I will be doing the microblog tutorial after all as well...
+
+Also remember to make a virtual environment for when you want to test things. The way we got flask input in here was by doing
+
+python(3) -m venv flask which makes the flask directory
+
+
+Then there is curl which comes with mac but it allows you to simulate a request like GET/POST/PUT/DELETE etc... pretty awesome

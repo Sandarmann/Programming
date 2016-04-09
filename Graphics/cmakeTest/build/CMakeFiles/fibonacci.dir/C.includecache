@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Drax/Programming/Graphics/cmakeTest/fib.c
+stdio.h
+/Users/Drax/Programming/Graphics/cmakeTest/stdio.h
+stdlib.h
+/Users/Drax/Programming/Graphics/cmakeTest/stdlib.h
+

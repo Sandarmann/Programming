@@ -1,0 +1,4 @@
+/Users/Drax/Programming/Graphics/assignment4/build/CMakeFiles/frame.dir
+/Users/Drax/Programming/Graphics/assignment4/build/Objects/CMakeFiles/Objects.dir
+/Users/Drax/Programming/Graphics/assignment4/build/CMakeFiles/Main.dir
+/Users/Drax/Programming/Graphics/assignment4/build/Vectors/CMakeFiles/Vectors.dir

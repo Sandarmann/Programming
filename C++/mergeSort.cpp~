@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+void merge(int  *input[], int beginning, int middle, int end){
+  int index1 = middle - beginning + 1;
+  int index2 = end - middle;
+
+  int left[index1];
+  int right[index2];
+
+  for(int i=0; i < index1; i++)
+    left[i] = input[i];
+  for(int j=0; j<index2; j++)
+    right[i] = input[middle+i];
+
+  int i = 0;
+
+  while(i<left.size() && i < right.size()){
+    if(left[i] <= right[i])
+      input[i] = left[i];
+    else
+      input[i] = right[i];
+  }
+}
+
+int main(){
+
+
+}
