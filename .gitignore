@@ -6,3 +6,5 @@ sideProjects/*
 School/*
 vimTips
 vimTips~
+.vscode/*
+*.backup/*

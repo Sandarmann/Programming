@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libObjects.a  CMakeFiles/Objects.dir/Sphere.cpp.o CMakeFiles/Objects.dir/Triangle.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libObjects.a

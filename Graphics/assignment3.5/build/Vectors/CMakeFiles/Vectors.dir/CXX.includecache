@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector2D.cpp
+iostream
+-
+Vector2D.h
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector2D.h
+cmath
+-
+
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector2D.h
+
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector3D.cpp
+sstream
+-
+Vector3D.h
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector3D.h
+cmath
+-
+
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector3D.h
+iostream
+-
+
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector4D.cpp
+Vector4D.h
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector4D.h
+
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector4D.h
+Vector3D.h
+/Users/Drax/Programming/Graphics/assignment3.5/Vectors/Vector3D.h
+

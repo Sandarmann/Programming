@@ -1,2 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libVectors.a  CMakeFiles/Vectors.dir/Vector2D.cpp.o CMakeFiles/Vectors.dir/Vector3D.cpp.o CMakeFiles/Vectors.dir/Vector4D.cpp.o CMakeFiles/Vectors.dir/Matrix3.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libVectors.a
